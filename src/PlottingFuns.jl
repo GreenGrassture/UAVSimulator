@@ -1,5 +1,3 @@
-# Functions for plotting various things
-
 function plotAandB(A, B)
     # Plots the A and B matrices in a reasonable form
     stateLabels = ["x", "y", "z", "v_x", "v_y", "v_z", "q0", "q1", "q2", "q3", "ω_x", "ω_y", "ω_z"]
@@ -86,4 +84,3 @@ function plotStates(sol)
     relayout!(p1, showlegend=false)
     p1
 end
-

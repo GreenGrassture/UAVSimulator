@@ -3,7 +3,6 @@
 print("Loading Julia modules\n")
 using BenchmarkTools
 using Profile
-#using ProfileView # testing using the VSCodeServer version instead
 using PProf
 
 using ControlSystems
