@@ -1,0 +1,13 @@
+name = "UAVSimulator"
+uuid = "45fdb359-1f37-41bf-8ef3-ab6785b38326"
+authors = ["GreenGrassture <juliustereck@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
